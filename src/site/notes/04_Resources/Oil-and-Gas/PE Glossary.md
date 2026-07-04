@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/04-resources/oil-and-gas/pe-glossary/","tags":["type/moc","status/active","area/oil-and-gas","project/petroleum-engineering","gardenEntry"],"dg-note-properties":{"type":"moc","status":"active","area":["oil-and-gas"],"project":["petroleum-engineering"],"tags":["type/moc","status/active","area/oil-and-gas","project/petroleum-engineering","gardenEntry"],"aliases":["PE Glossary","石油工程词典","石油工程全链词典"],"created":"2026-07-04","updated":"2026-07-04"}}
 ---
 
-
 # PE Glossary｜石油工程全链学习词典
 
 ↑ [[02_Projects/Petroleum-Engineering/Petroleum Engineering Home\|Petroleum Engineering Home]] · [[00_Home/Oil-and-Gas Map\|Oil-and-Gas Map]] · [[04_Resources/Oil-and-Gas/MOC-Petroleum-Engineering\|MOC-Petroleum-Engineering]] · [[02_Projects/Petroleum-Engineering/Drafts/PE Drafts Home\|PE Drafts Home]]
