@@ -38,52 +38,56 @@
 
 按油气开发链条排，方便「学到哪一段就补哪一段」。空段表示还没学到，不是删了。
 
-0. [总览与通用](#0-总览与通用)
-1. [油藏与流体](#1-油藏与流体)
-2. [勘探](#2-勘探)（待学）
-3. [钻井与完井](#3-钻井与完井)（待学）
-4. [一次采油](#4-一次采油)
-5. [二次采油与注水开发](#5-二次采油与注水开发) ← InjectWatch 主战场
-6. [提高采收率 EOR](#6-提高采收率-eor)
-7. [非常规](#7-非常规)
-8. [生产与注入监测](#8-生产与注入监测)（待学）
-9. [井筒完整性与故障语义](#9-井筒完整性与故障语义)（待学）
+> 跳转规范：必须用 `[[#完整标题]]`（与下方 `###` 标题逐字一致），**不要**写 GitHub 式 `[text](#slug)`。详见 [[00_Home/Obsidian Linking Standards\|Obsidian Linking Standards]]。
+
+0. [[04_Resources/Oil-and-Gas/PE Glossary#0 总览与通用\|总览与通用]]
+1. [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|油藏与流体]]
+2. [[04_Resources/Oil-and-Gas/PE Glossary#2 勘探\|勘探]]（待学）
+3. [[04_Resources/Oil-and-Gas/PE Glossary#3 钻井与完井\|钻井与完井]]（待学）
+4. [[04_Resources/Oil-and-Gas/PE Glossary#4 一次采油\|一次采油]]
+5. [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|二次采油与注水开发]] ← InjectWatch 主战场
+6. [[04_Resources/Oil-and-Gas/PE Glossary#6 提高采收率 EOR\|提高采收率 EOR]]
+7. [[04_Resources/Oil-and-Gas/PE Glossary#7 非常规\|非常规]]
+8. [[04_Resources/Oil-and-Gas/PE Glossary#8 生产与注入监测\|生产与注入监测]]
+9. [[04_Resources/Oil-and-Gas/PE Glossary#9 井筒完整性与故障语义\|井筒完整性与故障语义]]（待学）
 
 ---
 
 ## 速查表
 
-| EN | CN | 一句话 | 环节 | 把握 | 来源 |
+点 EN 跳到详条。表格单元格内**不要**写 `[[#标题|显示名]]`（半角 `|` 会拆坏表格列）；只用 `[[#完整标题]]`。见 [[00_Home/Obsidian Linking Standards\|Obsidian Linking Standards]]。
+
+| EN（点此跳详条） | CN | 一句话 | 环节 | 把握 | 来源 |
 |---|---|---|---|---|---|
-| hydrocarbon | 烃 / 油气 | 石油和天然气的统称（碳氢化合物） | 总览与通用 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
-| wellbore | 井筒 | 井眼从地面到油藏的通道 | 总览与通用 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
-| reserves | 储量 | 报告口径下可采油气量；与 OOIP 不同 | 总览与通用 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| conventional recovery | 常规采收 | 多用于渗透性较好的油藏；靠压力维持或改流体性质驱油 | 总览与通用 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| reservoir | 油藏 | 地下含油气的岩层空间 | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
-| OOIP | 原始地质储量 | 原来有多少油（STB）；$N=7758Ah\phi(1-S_w)/B_{oi}$ | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| porosity | 孔隙度 | 孔隙占岩石体积的比例，符号 $\phi$（小数） | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| permeability | 渗透率 | 流体在岩石中渗流的难易程度 | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| water saturation | 含水饱和度 | 孔隙流体中水所占比例，符号 $S_w$ | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| hydrocarbon saturation | 含烃饱和度 | 孔隙流体中油气所占比例，$S_h = 1 - S_w$ | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| oil formation volume factor | 原油体积系数 | 地层油体积/地面油体积，通常>1；算 OOIP 时除以 $B_o$ | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| stock tank barrel | 地面油罐桶 | 地面标准条件下的油体积单位，STB / BBL STO | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| solution gas-oil ratio | 溶解气油比 | 每桶地面油对应的溶解气量 $R_s$；**不在** OOIP 主公式里 | 油藏与流体 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| primary recovery | 一次采油 | 靠天然压力采油；本课约 10%–30% OOIP（导论曾说 5%–15%，并存） | 一次采油 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| secondary recovery | 二次采油 | 人工补能量；常见注水与注气；约再采 10%–20% OOIP | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| waterflood | 注水驱油 | 注水维持压力并驱油；易高含水、波及不均 | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| gas injection | 注气 | 注入 CO₂ 或天然气等以维持压力并驱油；二次常见手段之一 | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| injection well | 注水井 | 专门用来往地层注水的井 | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
-| production well | 采油井 | 把油采到地面的井 | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
-| water drive | 水驱（天然） | 边水或底水天然推进驱油 | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| sweep efficiency | 波及效率 | 注入流体扫过油藏体积的均匀/充分程度 | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| water-oil ratio | 水油比 | 产出液中水与油的比例，WOR | 生产与注入监测 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| residual oil saturation | 残余油饱和度 | 水驱后仍留在岩石中的油所占比例，$S_{or}$ | 二次采油与注水 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| enhanced oil recovery (EOR) | 提高采收率 | 改变油藏/原油条件再多采；本课 = tertiary recovery | 提高采收率 EOR | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| tertiary recovery | 三次采油 | 本课与 EOR 同义 | 提高采收率 EOR | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| unconventional recovery | 非常规采收 | 低渗页岩、油砂等；常造缝或加热 | 非常规 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| hydraulic fracturing | 水力压裂 | 高压流体压开裂缝，让油气流动 | 非常规 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| SAGD | 蒸汽辅助重力泄油 | 油砂：水平井注蒸汽，平行井采沥青 | 非常规 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| in-situ combustion | 火烧油层 | 点燃部分油，燃烧前缘加热降黏采稠油 | 非常规 | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#hydrocarbon｜烃 / 油气\|#hydrocarbon｜烃 / 油气]] | 烃 / 油气 | 石油和天然气的统称（碳氢化合物） | [[04_Resources/Oil-and-Gas/PE Glossary#0 总览与通用\|#0 总览与通用]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#wellbore｜井筒\|#wellbore｜井筒]] | 井筒 | 井眼从地面到油藏的通道 | [[04_Resources/Oil-and-Gas/PE Glossary#0 总览与通用\|#0 总览与通用]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#reserves｜储量\|#reserves｜储量]] | 储量 | 报告口径下可采油气量；与 OOIP 不同 | [[04_Resources/Oil-and-Gas/PE Glossary#0 总览与通用\|#0 总览与通用]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#conventional recovery｜常规采收\|#conventional recovery｜常规采收]] | 常规采收 | 多用于渗透性较好的油藏；靠压力维持或改流体性质驱油 | [[04_Resources/Oil-and-Gas/PE Glossary#0 总览与通用\|#0 总览与通用]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#reservoir｜油藏\|#reservoir｜油藏]] | 油藏 | 地下含油气的岩层空间 | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#OOIP｜原始地质储量\|#OOIP｜原始地质储量]] | 原始地质储量 | 原来有多少油（STB）；见详条公式 | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#porosity｜孔隙度\|#porosity｜孔隙度]] | 孔隙度 | 孔隙占岩石体积的比例，符号 φ（小数） | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#permeability｜渗透率\|#permeability｜渗透率]] | 渗透率 | 流体在岩石中渗流的难易程度 | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#water saturation｜含水饱和度\|#water saturation｜含水饱和度]] | 含水饱和度 | 孔隙流体中水所占比例，符号 Sw | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#hydrocarbon saturation｜含烃饱和度\|#hydrocarbon saturation｜含烃饱和度]] | 含烃饱和度 | 孔隙流体中油气所占比例，Sh = 1 − Sw | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#oil formation volume factor｜原油体积系数\|#oil formation volume factor｜原油体积系数]] | 原油体积系数 | 地层油体积/地面油体积，通常>1；算 OOIP 时除以 Bo | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#stock tank barrel｜地面油罐桶\|#stock tank barrel｜地面油罐桶]] | 地面油罐桶 | 地面标准条件下的油体积单位，STB / BBL STO | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#solution gas-oil ratio｜溶解气油比\|#solution gas-oil ratio｜溶解气油比]] | 溶解气油比 | 每桶地面油对应的溶解气量 Rs；不在 OOIP 主公式里 | [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|#1 油藏与流体]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#primary recovery｜一次采油\|#primary recovery｜一次采油]] | 一次采油 | 靠天然压力采油；本课约 10%–30% OOIP（导论曾说 5%–15%，并存） | [[04_Resources/Oil-and-Gas/PE Glossary#4 一次采油\|#4 一次采油]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#secondary recovery｜二次采油\|#secondary recovery｜二次采油]] | 二次采油 | 人工补能量；常见注水与注气；约再采 10%–20% OOIP | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#waterflood｜注水驱油\|#waterflood｜注水驱油]] | 注水驱油 | 注水维持压力并驱油；易高含水、波及不均 | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#gas injection｜注气\|#gas injection｜注气]] | 注气 | 注入 CO₂ 或天然气等以维持压力并驱油；二次常见手段之一 | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#injection well｜注水井\|#injection well｜注水井]] | 注水井 | 专门用来往地层注水的井 | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#production well｜采油井\|#production well｜采油井]] | 采油井 | 把油采到地面的井 | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#water drive｜水驱（天然）\|#water drive｜水驱（天然）]] | 水驱（天然） | 边水或底水天然推进驱油 | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#sweep efficiency｜波及效率\|#sweep efficiency｜波及效率]] | 波及效率 | 注入流体扫过油藏体积的均匀/充分程度 | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#water-oil ratio｜水油比\|#water-oil ratio｜水油比]] | 水油比 | 产出液中水与油的比例，WOR | [[04_Resources/Oil-and-Gas/PE Glossary#8 生产与注入监测\|#8 生产与注入监测]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#residual oil saturation｜残余油饱和度\|#residual oil saturation｜残余油饱和度]] | 残余油饱和度 | 水驱后仍留在岩石中的油所占比例，Sor | [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|#5 二次采油与注水开发]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#enhanced oil recovery (EOR)｜提高采收率\|#enhanced oil recovery (EOR)｜提高采收率]] | 提高采收率 | 改变油藏/原油条件再多采；本课 = tertiary recovery | [[04_Resources/Oil-and-Gas/PE Glossary#6 提高采收率 EOR\|#6 提高采收率 EOR]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#tertiary recovery｜三次采油\|#tertiary recovery｜三次采油]] | 三次采油 | 本课与 EOR 同义 | [[04_Resources/Oil-and-Gas/PE Glossary#6 提高采收率 EOR\|#6 提高采收率 EOR]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#unconventional recovery｜非常规采收\|#unconventional recovery｜非常规采收]] | 非常规采收 | 低渗页岩、油砂等；常造缝或加热 | [[04_Resources/Oil-and-Gas/PE Glossary#7 非常规\|#7 非常规]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#hydraulic fracturing｜水力压裂\|#hydraulic fracturing｜水力压裂]] | 水力压裂 | 高压流体压开裂缝，让油气流动 | [[04_Resources/Oil-and-Gas/PE Glossary#7 非常规\|#7 非常规]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-intro-oil-recovery\|2026-07-04-intro-oil-recovery]] · [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#SAGD｜蒸汽辅助重力泄油\|#SAGD｜蒸汽辅助重力泄油]] | 蒸汽辅助重力泄油 | 油砂：水平井注蒸汽，平行井采沥青 | [[04_Resources/Oil-and-Gas/PE Glossary#7 非常规\|#7 非常规]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
+| [[04_Resources/Oil-and-Gas/PE Glossary#in-situ combustion｜火烧油层\|#in-situ combustion｜火烧油层]] | 火烧油层 | 点燃部分油，燃烧前缘加热降黏采稠油 | [[04_Resources/Oil-and-Gas/PE Glossary#7 非常规\|#7 非常规]] | learning | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
 
 ---
 
@@ -169,7 +173,7 @@
 | 把握 | learning |
 | 来源 | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]]（§5 精讲） |
 | 深入 | |
-| 易混 | 不是 reserves（可采量）。7758 把 acre·ft 换成 barrel；$B_{oi}$ 把地下体积换成地面体积。参考 [AAPG Wiki](https://wiki.aapg.org/Reserves_estimation) |
+| 易混 | 不是 reserves（可采量）。7758 把 acre·ft 换成 barrel；$B_{oi}$ 把地下体积换成地面体积。参考：[Wikipedia · Oil in place](https://en.wikipedia.org/wiki/Oil_in_place) · [EIA · OOIP](https://www.eia.gov/tools/glossary/index.php?id=O#orig_oil_in_place) · [Discovery Geo · 体积估算 PDF](https://www.discoverygeo.com/resources/Papers/Reservoir-Eng-for-Geos-03.pdf) |
 
 #### porosity｜孔隙度
 
@@ -234,7 +238,7 @@
 | 把握 | learning |
 | 来源 | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]]（§5.5） |
 | 深入 | |
-| 易混 | 气的 $B_g$ 是膨胀（地面体积更大），方向与油相反 |
+| 易混 | 气的 $B_g$ 是膨胀（地面体积更大），方向与油相反。见 [EIA · Oil FVF](https://www.eia.gov/tools/glossary/index.php?id=F#oil_form_vol_fac) |
 
 #### stock tank barrel｜地面油罐桶
 
@@ -354,16 +358,16 @@
 
 #### water drive｜水驱（天然）
 
-| 字段 | 内容 |
-|---|---|
-| EN | water drive |
-| CN | 水驱；天然水驱 |
-| 解释 | 边水或底水天然推进驱油；压力可接近原始压力。分 edge / bottom water drive。 |
-| 环节 | 二次采油与注水开发 |
-| 把握 | learning |
-| 来源 | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]] |
-| 深入 | |
-| 易混 | 与人工 waterflood（注水井注水）不同，但是都是「水在驱油」 |
+| 字段  | 内容                                                 |
+| --- | -------------------------------------------------- |
+| EN  | water drive                                        |
+| CN  | 水驱；天然水驱                                            |
+| 解释  | 边水或底水天然推进驱油；压力可接近原始压力。分 edge / bottom water drive。 |
+| 环节  | 二次采油与注水开发                                          |
+| 把握  | learning                                           |
+| 来源  | [[02_Projects/Petroleum-Engineering/Drafts/2026-07-04-conventional-recovery-methods\|2026-07-04-conventional-recovery-methods]]       |
+| 深入  |                                                    |
+| 易混  | 与人工 waterflood（注水井注水）不同，但是都是「水在驱油」                 |
 
 #### sweep efficiency｜波及效率
 
