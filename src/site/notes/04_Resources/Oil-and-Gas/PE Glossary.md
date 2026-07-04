@@ -7,45 +7,19 @@
 
 ↑ [[02_Projects/Petroleum-Engineering/Petroleum Engineering Home\|Petroleum Engineering Home]] · [[00_Home/Oil-and-Gas Map\|Oil-and-Gas Map]] · [[04_Resources/Oil-and-Gas/MOC-Petroleum-Engineering\|MOC-Petroleum-Engineering]] · [[02_Projects/Petroleum-Engineering/Drafts/PE Drafts Home\|PE Drafts Home]]
 
-个人学习用词典：**每次学完整理草稿时，把新概念 / 名词写入这里。**  
-研究项目内部代码（如 `0G`、`Tier A`）不进本词典，见研究库 `docs/GLOSSARY_CN.md`。
+石油工程全链学习词典。点 EN 或环节可跳到详条。不含私有现场原文。  
+维护与追加规则 → [[02_Projects/Petroleum-Engineering/PE Learning Ops#词典\|PE Learning Ops#词典]]
 
-## 怎么用
+## 全链环节
 
-| 时机 | 动作 |
-|---|---|
-| 学完一小节、整理草稿 | 草稿 [[07_Templates/Learning/pe-draft-template\|pe-draft-template]] 的 Key Terms → **追加本词典** |
-| 同一词再次出现 | **改解释**，不新建重复条；在「来源」追加草稿链接 |
-| 解释已经稳定、需要展开 | 再拆 `05_Atomic_Notes/Terms/Oil-and-Gas/` 或 Concepts，链到「深入」 |
-| 查词 | 先看下方 **速查表**，再点开对应详条 |
-
-条目模板：[[07_Templates/Learning/pe-glossary-entry-template\|pe-glossary-entry-template]]
-
-## 每条最少写什么
-
-| 字段 | 要求 |
-|---|---|
-| **EN** | 英文标准写法（可附常见变体） |
-| **CN** | 中文名（可附现场常用说法，**不含私有原文短语**） |
-| **解释** | 一句白话，用自己的话 |
-| **环节** | 全链中的位置（见下） |
-| **来源** | 哪次学习草稿 |
-| **把握** | `learning`（刚学）/ `solid`（能讲给别人听） |
-| **深入** | 可选，原子笔记链接 |
-| **易混** | 可选，和谁容易搞混 |
-
-## 全链环节（浏览用目录）
-
-按油气开发链条排，方便「学到哪一段就补哪一段」。空段表示还没学到，不是删了。
-
-> 跳转规范：必须用 `[[#完整标题]]`（与下方 `###` 标题逐字一致），**不要**写 GitHub 式 `[text](#slug)`。详见 [[00_Home/Obsidian Linking Standards\|Obsidian Linking Standards]]。
+空段 = 还没学到。InjectWatch 主战场在「二次采油与注水开发」。
 
 0. [[04_Resources/Oil-and-Gas/PE Glossary#0 总览与通用\|总览与通用]]
 1. [[04_Resources/Oil-and-Gas/PE Glossary#1 油藏与流体\|油藏与流体]]
 2. [[04_Resources/Oil-and-Gas/PE Glossary#2 勘探\|勘探]]（待学）
 3. [[04_Resources/Oil-and-Gas/PE Glossary#3 钻井与完井\|钻井与完井]]（待学）
 4. [[04_Resources/Oil-and-Gas/PE Glossary#4 一次采油\|一次采油]]
-5. [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|二次采油与注水开发]] ← InjectWatch 主战场
+5. [[04_Resources/Oil-and-Gas/PE Glossary#5 二次采油与注水开发\|二次采油与注水开发]]
 6. [[04_Resources/Oil-and-Gas/PE Glossary#6 提高采收率 EOR\|提高采收率 EOR]]
 7. [[04_Resources/Oil-and-Gas/PE Glossary#7 非常规\|非常规]]
 8. [[04_Resources/Oil-and-Gas/PE Glossary#8 生产与注入监测\|生产与注入监测]]
@@ -54,8 +28,6 @@
 ---
 
 ## 速查表
-
-点 EN 跳到详条。表格单元格内**不要**写 `[[#标题|显示名]]`（半角 `|` 会拆坏表格列）；只用 `[[#完整标题]]`。见 [[00_Home/Obsidian Linking Standards\|Obsidian Linking Standards]]。
 
 | EN（点此跳详条） | CN | 一句话 | 环节 | 把握 | 来源 |
 |---|---|---|---|---|---|
@@ -496,13 +468,4 @@
 
 ### 9 井筒完整性与故障语义
 
-（待学 — 失封、管柱等问题的领域含义，学到再补；私有现场短语不进本词典）
-
----
-
-## 维护约定
-
-1. **一词一条**：英文规范名做标题锚点，`EN｜CN` 格式。
-2. **先词典、后原子笔记**：词典保持轻量；长解释、公式、例子再拆笔记。
-3. **私有材料隔离**：现场原文关井原因、标签表、井号等不进本词典。
-4. **与 InjectWatch**：领域词可以标在「易混 / 解释」里点到 [[02_Projects/InjectWatch/InjectWatch Home\|InjectWatch Home]]，但不写研究内部代码。
+（待学）
