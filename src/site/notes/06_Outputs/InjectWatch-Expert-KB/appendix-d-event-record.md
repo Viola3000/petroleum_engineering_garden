@@ -3,8 +3,6 @@
 ---
 
 
-# 附表 D — 注水异常事件记录规范
-
 **编制日期：** 2026 年 7 月 6 日
 **版本：** 第一版（征求意见稿，待现场专家确认）
 **配套主文件：** [[06_Outputs/InjectWatch-Expert-KB/expert-kb-v1-main\|expert-kb-v1-main]]
