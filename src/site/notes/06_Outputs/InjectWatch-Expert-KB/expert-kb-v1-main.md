@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"injectwatch/expert-kb-v1","permalink":"/injectwatch/expert-kb-v1/","title":"注水井异常判断标准（专家知识库 第一版）","tags":["gardenEntry"],"dg-note-properties":{"title":"注水井异常判断标准（专家知识库 第一版）"}}
+{"dg-publish":true,"dg-home":true,"dg-home-link":false,"dg-show-backlinks":false,"dg-show-local-graph":false,"dg-permalink":"injectwatch/expert-kb-v1","title":"注水井异常判断标准（专家知识库 第一版）","permalink":"/injectwatch/expert-kb-v1/","tags":["gardenEntry"],"dgPassFrontmatter":true,"dg-note-properties":{"title":"注水井异常判断标准（专家知识库 第一版）"}}
 ---
 
 

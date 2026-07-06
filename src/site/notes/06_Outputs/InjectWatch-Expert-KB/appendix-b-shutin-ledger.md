@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"injectwatch/appendix-b","permalink":"/injectwatch/appendix-b/","title":"附表 B — 历史记录使用规则","dg-note-properties":{"title":"附表 B — 历史记录使用规则"}}
+{"dg-publish":true,"dg-home-link":false,"dg-show-backlinks":false,"dg-show-local-graph":false,"dg-permalink":"injectwatch/appendix-b","title":"附表 B — 历史记录使用规则","permalink":"/injectwatch/appendix-b/","dgPassFrontmatter":true,"dg-note-properties":{"title":"附表 B — 历史记录使用规则"}}
 ---
 
 

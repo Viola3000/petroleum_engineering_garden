@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"injectwatch/appendix-a","permalink":"/injectwatch/appendix-a/","title":"附表 A — 异常判定规则详表","dg-note-properties":{"title":"附表 A — 异常判定规则详表"}}
+{"dg-publish":true,"dg-home-link":false,"dg-show-backlinks":false,"dg-show-local-graph":false,"dg-permalink":"injectwatch/appendix-a","title":"附表 A — 异常判定规则详表","permalink":"/injectwatch/appendix-a/","dgPassFrontmatter":true,"dg-note-properties":{"title":"附表 A — 异常判定规则详表"}}
 ---
 
 

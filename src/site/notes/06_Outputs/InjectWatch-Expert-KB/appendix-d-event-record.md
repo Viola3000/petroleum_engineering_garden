@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"injectwatch/appendix-d","permalink":"/injectwatch/appendix-d/","title":"附表 D — 注水异常事件记录规范","dg-note-properties":{"title":"附表 D — 注水异常事件记录规范"}}
+{"dg-publish":true,"dg-home-link":false,"dg-show-backlinks":false,"dg-show-local-graph":false,"dg-permalink":"injectwatch/appendix-d","title":"附表 D — 注水异常事件记录规范","permalink":"/injectwatch/appendix-d/","dgPassFrontmatter":true,"dg-note-properties":{"title":"附表 D — 注水异常事件记录规范"}}
 ---
 
 

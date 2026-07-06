@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"injectwatch/appendix-c","permalink":"/injectwatch/appendix-c/","title":"附表 C — 可能的现场原因与核查指引","dg-note-properties":{"title":"附表 C — 可能的现场原因与核查指引"}}
+{"dg-publish":true,"dg-home-link":false,"dg-show-backlinks":false,"dg-show-local-graph":false,"dg-permalink":"injectwatch/appendix-c","title":"附表 C — 可能的现场原因与核查指引","permalink":"/injectwatch/appendix-c/","dgPassFrontmatter":true,"dg-note-properties":{"title":"附表 C — 可能的现场原因与核查指引"}}
 ---
 
 
